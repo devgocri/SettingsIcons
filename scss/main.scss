@@ -29,26 +29,26 @@
 }
 
 @container root style(--settingsicons: show) {
-    .sidebarRegion_c25c6d {
+    .sidebarRegion__23e6b {
         flex-basis: calc(218px + var(--si-size) + var(--si-gap)) !important;
     }
 
     // User settings
-    .sidebar_c25c6d {
+    .sidebar__23e6b {
         width: calc(218px + var(--si-size) + var(--si-gap)) !important;
 
         :is(
-                .item_a0 .icon_f7189e,
-                .premiumLabel_ae3c77 > svg,
-                .premiumLabel_ae3c77 img,
-                .tabBarItemContainer_e7c031 > svg,
-                .tabBarItemContainer_e7c031 img
-            ) {
+            .item_b3f026 .icon_cbe0b4,
+            .premiumLabel_e681d1 > svg,
+            .premiumLabel_e681d1 img,
+            .tabBarItemContainer_c7e907 > svg,
+            .tabBarItemContainer_c7e907 img
+        ) {
             display: none;
         }
 
         // Settings tab
-        .side_a0 .item_a0 {
+        .side_b3f026 .item_b3f026 {
             display: flex;
             align-items: center;
 
